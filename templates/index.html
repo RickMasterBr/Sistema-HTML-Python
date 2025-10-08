@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    <title>Desenvolvimento Web</title>
+</head>
+
+<body>
+
+    <div class="total-cards">
+
+        <div class="card">
+            <div class="card-content">
+                <h2 class="card-title">Pássaro Exótico</h2>
+                <p class="card-text">Um pássaro exótico importado da lituânia, em sua região representa resiliência e
+                    força.
+                </p>
+                <a href="#" class="card-btn">Compre Agora</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-content">
+                <h2 class="card-title">Coruja Exótica</h2>
+                <p class="card-text">Um pássaro exótico importado da lituânia, em sua região representa resiliência e
+                    força.
+                </p>
+                <a href="#" class="card-btn">Compre Agora</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-content">
+                <h2 class="card-title">Periquito Exótico</h2>
+                <p class="card-text">Um pássaro exótico importado da lituânia, em sua região representa resiliência e
+                    força.
+                </p>
+                <a href="#" class="card-btn">Compre Agora</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <div class="card-content">
+                <h2 class="card-title">Login</h2>
+                <p class="card-text">Realize seu login para acessar sua conta.</p>
+
+                <form action="/login" method="post">
+                    <input class="usuario" type="text" name="username" placeholder="Usuário" required>
+                    <br><br> <input class="senha" type="password" name="password" placeholder="Senha" required>
+                    <br><br>
+                    <span>Não tem conta ainda?</span>
+                    <a href="#">Clique aqui</a>
+                    <br><br> <button type="submit" class="animated-button">
+                        <span>Clique aqui</span>
+                        <span></span>
+                    </button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
