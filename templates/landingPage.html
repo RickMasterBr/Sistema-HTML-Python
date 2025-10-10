@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/landing.css')}}">
+    <title>Landing Page</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">Landing</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="btn-get-started">Get Started</a>
+    </header>
+
+    <main>
+
+        <section class="hero-text">
+            <h1>Fly makes you 
+            </br>faster</h1>
+            <p>New free template by uicookies.com. For more templates visit the site.
+            </br> ipsum dolor sit amet,
+                consectetur adipisicing elit.</p>
+            <a href="#" class="btn-see-pricing">See Pricing</a>
+        </section>
+
+        <section class="signup-form-container">
+            <h2>Sign Up for free</h2>
+            <form>
+                <input type="text" placeholder="Full name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <select name="type" required>
+                    <option value="" disabled selected>Type</option>
+                    <option value="personal" disabled selected>Personal</option>
+                    <option value="business" disabled selected>Business</option>
+                </select>
+                <button type="submit" class="btn-register">Register</button>
+            </form>
+        </section>
+
+    </main>
+</body>
+
+</html>

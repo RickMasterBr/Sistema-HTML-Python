@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 
 def login():
-    return render_template('cadastrar.html')
+    return render_template('landingPage.html')
 
 
 if __name__ == '__main__':
