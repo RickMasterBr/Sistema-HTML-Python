@@ -39,7 +39,7 @@ header {
     z-index: 10;
 }
 
-.logo {
+.logomarca {
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
@@ -62,7 +62,7 @@ nav a:hover {
     color: var(--pink);
 }
 
-.btn {
+.botao {
     padding: 12px 35px;
     border-radius: 50px;
     font-weight: bold;
@@ -70,13 +70,13 @@ nav a:hover {
     transition: 0.4s;
 }
 
-.contact {
+.contato {
     background: var(--pink);
     color: #fff;
 }
 
-.contact:hover {
-    opacity: 0.8;
+.contato:hover {
+    opacity: 0.7;
 }
 
 main {
@@ -85,14 +85,14 @@ main {
     align-items: center;
 }
 
-.hero {
+.destaque {
     text-align: center;
     position: relative;
     /* necessário para controlar camadas dentro */
 }
 
-.hero .subtitle,
-.hero h1 {
+.destaque .subtitulo,
+.destaque h1 {
     position: absolute;
     /* separa o texto da imagem */
     top: 15%;
@@ -104,7 +104,7 @@ main {
     width: 100%;
 }
 
-.subtitle {
+.subtitulo {
     margin-top: -85px;
     font-size: 20px;
     color: var(--text-light);
@@ -121,21 +121,21 @@ h1 span {
     border-bottom: 4px solid var(--pink);
 }
 
-.hero-image-container {
+.container-imagem-destaque {
     margin-top: 90px;
     position: relative;
     z-index: 2;
     /* acima do texto */
 }
 
-.hero-image-container img {
+.container-imagem-destaque img {
     height: 75vh;
     margin-top: 70px;
     position: relative;
     z-index: 2;
 }
 
-.hero-buttons {
+.botoes-destaque {
     position: absolute;
     bottom: 50px;
     left: 50%;
@@ -146,23 +146,23 @@ h1 span {
     /* acima da imagem */
 }
 
-.pink {
+.rosa {
     background: var(--pink);
     color: #fff;
     border: 2px solid var(--pink);
 }
 
-.pink:hover {
+.rosa:hover {
     background: #fff;
     color: var(--pink);
 }
 
-.white {
+.branco {
     background: #fff;
     color: var(--text-dark);
     border: 2px solid var(--grid);
 }
 
-.white:hover {
+.branco:hover {
     background: #e0e0e0;
 }
