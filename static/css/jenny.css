@@ -166,3 +166,35 @@ h1 span {
 .branco:hover {
     background: #e0e0e0;
 }
+
+.servicos{
+    width: 100%;
+    background-color: lightblue;
+    height: 1500px;
+    position:relative;
+}
+.sobre{
+width: 100%;
+background-color: bisque;
+height: 1500px;
+position:relative;    
+}
+.projetos{
+width: 100%;
+background-color: darkcyan;
+height: 1500px;
+position:relative;    
+}
+.depoimentos{
+width: 100%;
+background-color:indianred;
+height: 1500px;
+position:relative;    
+}
+.blog{
+width: 100%;
+background-color: lightgreen;
+height: 1500px;
+position:relative;    
+}
+ 
